@@ -531,6 +531,161 @@ select optgroup option :hover{
     margin-left: 2%;
 }
 /* BANNER CAT */
+
+
+/* why us */
+.why-us h2 {
+    position: relative;
+    margin-bottom: 35px;
+}
+.why-us h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin: 0 auto;
+}
+
+.why-us .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+    position: relative;
+    background-color: #333;
+    max-height: 230px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.why-us .box:hover {
+	padding: 30px 30px 70px 30px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.why-us .box img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+	opacity: 0;
+	transition:all ease 1s; 
+}
+.why-us .box:hover img {
+	opacity: 1;
+}
+.why-us .box span {
+    display: block;
+    font-size: 56px;
+    font-weight: 700;
+    color: #6b6060;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    line-height: normal;
+}
+.why-us .box h4 a {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0;
+	margin: 20px 0;
+	color: #dadada;
+	text-decoration: none;
+}
+.why-us .box p {
+	color: #aaaaaa;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+.why-us .box:hover span,
+.why-us .box:hover h4 a,
+.why-us .box:hover p {
+  	color: #fff;
+}
+/* why us */
+
+/*  8.7 Newsletter */
+#newsletter {
+    background: #F8F9FA;
+    padding: 80px 0px;
+    text-align: center;
+    color: #fff;
+}
+#newsletter h3 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    color: black;
+}
+#newsletter p {
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+    margin: 25px 0px 40px;
+    color: #575757;
+}
+#newsletter form {
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+#newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #FF9800;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+#newsletter form input[type="submit"]:hover {
+    opacity: 0.9;
+}
+#newsletter .social-links {
+    margin-top: 30px;
+}
+#newsletter .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ffffff;
+    color: #4caf50;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 4px;
+    border-radius: 10px 10px 10px 0px;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    transition: 0.4s;
+}
+#newsletter .social-links a:hover {
+    background: #FF9800;
+    color: #fff;
+    text-decoration: none;
+}  /*  NEWSLETTER SECTION  */
+
+
+
 /* footer */
 footer{
     padding-top: 40px;
