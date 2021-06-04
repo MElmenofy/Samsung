@@ -162,7 +162,7 @@ ul{
 }
 .header a {
     cursor: pointer;
-    color: #001f3f;
+    color: #034EA2;
 }
 #header_links {
     float: right;
@@ -202,7 +202,7 @@ ul{
 
 #particles-js{
     height: 200px; /* height: 250px; */
-    background-color: #001f3f; /* 001f3f*/
+    background-color: #034EA2; /* 001f3f*/
     position: relative;
 }
 #particles-js h1 {
@@ -275,9 +275,9 @@ ul{
     border-color: #adadad;
 }
 .searchFilter .btn-search {
-  background-color: #001f3f;    /* #00aced */
+  background-color: #034EA2;    /* #00aced */
   color: #fff;
-  border: 1px solid #001f3f; /* #00aced */
+  border: 1px solid #034EA2; /* #00aced */
   transition: .25s;
 }
 .searchFilter .btn-search:hover {
@@ -316,20 +316,23 @@ select optgroup option :hover{
     height: 60px;
     padding: 0px;
 } 
+.navbar-collapse{
+    background-color: #034EA2;
+}
 .navbar-brand{
     /* display:  */
  font-family: SAMSUNG;
  color: white;
 }
 .bg-light {
-    background-color: #001f3f!important;
+    background-color: #034EA2!important;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     height: 60px;
-    padding: 20px 20px 0px 20px !important;
+    padding: 20px 13px 0px 13px !important;
 }
 .navbar-expand-lg .navbar-nav .nav-item  :hover, .navbar-expand-lg .navbar-nav .nav-item .active{
     background-color:black;
@@ -350,7 +353,7 @@ select optgroup option :hover{
     color: #fff;
   }
 #Megamenu .dropdown-menu, #HomeAppliance .dropdown-menu{
-    min-width: 800px !important;
+    width: 780px !important;
     background-color: #fff;
     box-shadow: 0 13px 6px -11px #b3b3b3 inset, 0 6px 12px -5px #666 !important;
     border: 0 none !important;
@@ -358,21 +361,6 @@ select optgroup option :hover{
     color: #333;
     margin-top: 0;
     padding: 30px;
-    /* min-width: 200px; */
-}
-#HomeAppliance{
-    position: relative;
-}
-#HomeAppliance .image{
-    overflow: hidden;
-    border-radius: 1.38888889vw;
-
-}
-#HomeAppliance .image img{
-    transition: transform .2s cubic-bezier(0.4,0,0.2,1);
-}
-#HomeAppliance .image:hover img{
-    transform: scale(1.05);
 }
 .dropdown-menu h6{
     color: #000;
@@ -396,26 +384,9 @@ select optgroup option :hover{
     transition: all 0.3s ease-in-out 0s;
 }
 .dropdown-menu a:hover{
-    border-bottom: 1px solid darkred;
-    color: darkred !important;
+    border-bottom: 1px solid #001f3f;
+    color: #001f3f !important;
    
-}
-.dropdown-menu{    
-    position: absolute !important;
-    z-index: 1000;
-    /* display: none; */
-    min-width: 700px;
-    padding: 0; 
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 18%);
 }
 .navbar-expand-lg .navbar-nav li .dropdown-menu :hover {
     background-color: white;
@@ -457,7 +428,7 @@ select optgroup option :hover{
     position: absolute;
     bottom: 0%;
     left: 0%;
-    background: rgba(0, 31, 63, 0.72);
+    background: rgb(3, 78, 162, 0.72);
     padding: 1em;
 }
 .ban-text h4 {
@@ -510,7 +481,7 @@ select optgroup option :hover{
     position: absolute;
     bottom: 0%;
     left: 0%;
-    background: rgba(0, 31, 63, 0.72);
+    background: rgb(3, 78, 162, 0.72);
     padding: 8px;
 }
 .ban-text1 h4 {
@@ -702,7 +673,7 @@ footer{
 }
 
 .footer-copy{
-    background-color: #001F3F; 
+    background-color: #034EA2; 
     color: white !important; 
 }
 .footer-copyright{
@@ -745,8 +716,8 @@ footer{
 .slide-button{
     border-radius: 0;
     color: white;
-    border-color: #001f3f !important;
-    background: #001f3f;
+    border-color: #034EA2 !important;
+    background: #034EA2;
     font-size: 13px;
     line-height: 12px;
     padding: 11px 17px 9px;
@@ -792,8 +763,10 @@ footer{
      }
      /*menu  */
      #Megamenu .dropdown-menu, #HomeAppliance .dropdown-menu{
-        min-width:  720px !important;
+        /* min-width:  720px !important; */
         height: 550px !important;
+        width: 100% !important;
+    
     }
     
     #Megamenu .col-megamenu{
@@ -823,11 +796,13 @@ footer{
  }
  /*menu  */
  #Megamenu .dropdown-menu, #HomeAppliance .dropdown-menu{
-    min-width: 541px !important;
+    /* min-width: 541px !important; */
     height: 500px !important;
+    width: 100% !important;
 }
 #Megamenu .dropdown-menu .col-megamenu{
     margin-top: 35px !important;
+
 }
 }
 
@@ -866,7 +841,8 @@ footer{
 
 /*menu  */
     #Megamenu .dropdown-menu, #HomeAppliance .dropdown-menu{
-        min-width: 520px !important;
+        /* min-width: 520px !important; */
+        width: 100% !important;
         height: 500px !important;
     }
     #Megamenu .dropdown-menu .col-megamenu{
@@ -912,7 +888,7 @@ footer{
     white-space: nowrap;
   }
   .product-title a:hover{
-      color: #001F3F;
+      color: #034EA2;
       text-decoration: underline;
   }
   .pro-rating {
