@@ -45,10 +45,10 @@ h6 {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+/* 
 .navbar-toggle {
     background-color: #000;
-}
+} */
 
 a#scrollUp {
     bottom: 0px;
@@ -80,10 +80,10 @@ a#scrollUp i {
 .carousel-indicators li.active {
     background: #FE980F;
 }
-
+/* 
 .item {
     padding-left: 100px;
-}
+} */
 
 .pricing {
     position: absolute;
@@ -94,7 +94,7 @@ a#scrollUp i {
 .girl {
     margin-left: 0;
 }
-
+/* 
 .item h1 {
     color: #B4B1AB;
     font-family: abel;
@@ -120,7 +120,7 @@ a#scrollUp i {
     font-size: 16px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .get {
     background: #FE980F;
@@ -230,10 +230,10 @@ h2.title:before {
     vertical-align: baseline;
     white-space: nowrap;
 }
-
+/* 
 .panel-body ul {
     padding-left: 20px;
-}
+} */
 
 .panel-body ul li a {
     color: #696763;
@@ -247,7 +247,7 @@ h2.title:before {
     padding-bottom: 20px;
     padding-top: 15px;
 }
-
+/* 
 .brands-name .nav-stacked li a {
     background-color: #FFFFFF;
     color: #696763;
@@ -261,7 +261,7 @@ h2.title:before {
 .brands-name .nav-stacked li a:hover {
     background-color: #fff;
     color: #696763;
-}
+} */
 
 .shipping {
     background-color: #F2F2F2;
@@ -543,6 +543,13 @@ h2.title {
 #main-contact-form .btn-primary {
     margin-bottom: 15px;
     margin-top: 20px;
+    padding: 8px 30px;
+    background-color: #034EA2!important;
+    text-transform: uppercase;
+}
+#main-contact-form .btn-primary:hover{
+    background-color: #FE980F !important; 
+    border: none;
 }
 
 #contact-page .form-control:focus,

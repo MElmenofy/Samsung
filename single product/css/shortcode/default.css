@@ -487,7 +487,9 @@ a.button.small i { padding: 15px; width: 45px; }
 
 a.button.extra-small span { padding: 8px 30px; font-size: 14px; }
 a.button.extra-small i { padding: 11px; width: 38px; font-size: 13px; }
-
+a.button.button-black span:hover{
+  background-color: black !important;
+}
 /*************************
   4. social-icon
 *************************/
