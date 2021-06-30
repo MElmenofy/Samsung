@@ -1033,6 +1033,9 @@ footer{
 /* -------------------------------------
     7.3 Up comming product section
 ------------------------------------- */
+#page-content{
+    margin-bottom: 100px;
+}
 .up-comming-pro {}
 .up-comming-pro-img {
   width: 47.3%;
